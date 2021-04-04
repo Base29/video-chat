@@ -3,15 +3,15 @@ import './App.css';
 import VideoChat from './VideoChat';
 
 const App = () => {
-  return (
-    <div className="app">
-      <header>
-        <h1>Video Chat with Hooks</h1>
-      </header>
-      <main>
-        <VideoChat />
-      </main>
-      <footer>
+    return (
+        <div className='app'>
+            <header>
+                <h1>Video Chat with Hooks</h1>
+            </header>
+            <main>
+                <VideoChat />
+            </main>
+            {/* <footer>
         <p>
           Made with{' '}
           <span role="img" aria-label="React">
@@ -19,9 +19,9 @@ const App = () => {
           </span>{' '}
           by <a href="https://twitter.com/philnash">philnash</a>
         </p>
-      </footer>
-    </div>
-  );
+      </footer> */}
+        </div>
+    );
 };
 
 export default App;
