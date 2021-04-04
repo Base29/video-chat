@@ -6,20 +6,20 @@ const App = () => {
     return (
         <div className='app'>
             <header>
-                <h1>Video Chat with Hooks</h1>
+                <h1>Video Chat</h1>
             </header>
             <main>
                 <VideoChat />
             </main>
-            {/* <footer>
-        <p>
-          Made with{' '}
-          <span role="img" aria-label="React">
-            ⚛️
-          </span>{' '}
-          by <a href="https://twitter.com/philnash">philnash</a>
-        </p>
-      </footer> */}
+            <footer>
+                <p>
+                    Made with{' '}
+                    <span role='img' aria-label='React'>
+                        ⚛️
+                    </span>{' '}
+                    by <a href='https://github.com/Base29'>Faisal Hussain</a>
+                </p>
+            </footer>
         </div>
     );
 };
